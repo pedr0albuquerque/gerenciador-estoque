@@ -3,6 +3,3 @@ class Product:
         self.name = name
         self.price = price
         self.quantity = quantity
-
-    def getter(self):
-        return self.name
