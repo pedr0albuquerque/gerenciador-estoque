@@ -1,8 +1,13 @@
 from classes.Product import Product 
+from classes.ProductDAO import ProductDAO
 
-name = str(input("insira o nome do produto"))    
-price = float(input("insira o preço do produto"))
-quantity = int(input("insira quantidade do produto"))
+nome = str(input("insira o nome do produto"))   
+preco = float(input("insira o preço do produto"))
+quantidade = int(input("insira quantidade do produto"))
 
-product = Product(name, price, quantity)
-print(product.getter())
+produto = Product(nome, preco, quantidade)
+produtoDAO = ProductDAO()
+
+'''produtoDAO.inserir(produto)
+produtoDAO.ler
+produtoDAO.deletar("")'''
