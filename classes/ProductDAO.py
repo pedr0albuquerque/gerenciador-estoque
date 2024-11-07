@@ -1,4 +1,4 @@
-import mysql.connector
+'''import mysql.connector
 
 class ProductDAO():
   def __init__(self):
@@ -63,4 +63,4 @@ class ProductDAO():
     conexao.commit()
 
     cursor.close()
-    conexao.close()
+    conexao.close()'''
